@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p style="text-align:right;">iniciar secion.</p>
+  <hr>
+  <p style="text-align:right;">cerrar sesion.</p>
+  <hr>
+  <p style="text-align:right;">carrito de compra.</p>
+  <hr>
+ <input type="text" id="fname" name="fname" value="Busqueda"><br>
+ 
+  <p style="text-align:left;">tu carrito de compras.</p>
+  <img src="" alt="ropa" width="500" height="333">
+  <p style="text-align:center;">nombre del producto.</p>
+  <input type="submit" value="Eliminar">
+  <p style="text-align:right;">Precio</p>
+  <p style="text-align:right;">$precio.</p>
+  <hr>
+  <p style="text-align:right;">subtotal $subtotal</p>
+  <p style="text-align:right;">envio $envio.</p>
+  <p style="text-align:right;">total $total.</p>
+  <input type="submit" value="Pagar">
+  
+<hr>
+<p> otros clientes tambien compraron</p>
+<img src="" alt="ropa" width="500" height="333">
+<p> Nombre</p>
+<p> $precio</p>
+
+<hr>
+<p style="background-color:gray;">Encuentranos en: .</p>
+<p style="background-color:blue;">FB Chein .</p>
+<p style="background-color:blue ;">Twitter @chein .</p>
+<p style="background-color:gray;">Email chein@gmail.com .</p>
+   
+
+</body>
+</html>

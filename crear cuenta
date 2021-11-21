@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+<body>
+  <p style="text-align:right;">iniciar secion.</p>
+  <hr>
+  <p style="text-align:right;">cerrar sesion.</p>
+  <hr>
+  <p style="text-align:right;">carrito de compra.</p>
+  <hr>
+  	<table>
+        <tr>
+          <th>Niña</th>
+          <th>Niño</th>
+          <th>Mujer</th>
+          <th>Hombre</th>
+        </tr>
+        </table>
+        <hr>
+  <input type="text" id="fname" name="fname" value="Busqueda"><br>
+
+  <h2>Crear cuenta</h2>
+
+
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Apellido paterno:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="lname">Apellido materno:</label><br>
+  <input type="text" id="lname" name="lname" value="Does"><br><br>
+  <label for="lname">Correo electronico:</label><br>
+  <input type="text" id="lname" name="lname" value="@example.com"><br><br>
+  <input type="checkbox" id="terminos" name="terminos" value="Terms">
+  <label for="terminos"> Acepto los terminos y condiciones</label><br>
+  <input type="checkbox" id="ofertas" name="ofertas" value="Terms">
+  <label for="ofertas"> Decea recibir ofertas </label><br>
+  <p> </p>
+  <input type="submit" value="Captcha">
+  <input type="submit" value="Aceptar">
+</form> 
+
+<hr>
+<p style="background-color:gray;">Encuentranos en: .</p>
+<p style="background-color:blue;">FB Chein .</p>
+<p style="background-color:blue ;">Twitter @chein .</p>
+<p style="background-color:gray;">Email chein@gmail.com .</p>
+
+</body>
+</html>

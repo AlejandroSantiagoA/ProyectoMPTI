@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+<body>
+	<table>
+        <tr>
+          <th>Niña</th>
+          <th>Niño</th>
+          <th>Mujer</th>
+          <th>Hombre</th>
+        </tr>
+        </table>
+        <hr>
+        <input type="text" id="fname" name="fname" value="Busqueda"><br>
+        <hr> 
+<h2>Iniciar sesion</h2>
+
+<p>Ingresa tus datos para poder iniciar sesion</p>
+
+<form action="/action_page.php">
+  <label for="username">correo o nombre de usuario:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Contraseña:</label><br>
+  <p><a href="https://www.shein.com">Recuperar contraseña</a></p>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Captcha">
+  <p> </p>
+  <input type="submit" value="Aceptar">
+</form>
+
+
+<hr>
+<p style="background-color:gray;">Encuentranos en: .</p>
+<p style="background-color:blue;">FB Chein .</p>
+<p style="background-color:blue ;">Twitter @chein .</p>
+<p style="background-color:gray;">Email chein@gmail.com .</p>
+
+</body>
+</html>
