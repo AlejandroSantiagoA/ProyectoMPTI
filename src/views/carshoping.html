@@ -1,38 +1,142 @@
 <!DOCTYPE html>
-<html>
-<body>
-<p style="text-align:right;">iniciar secion.</p>
-  <hr>
-  <p style="text-align:right;">cerrar sesion.</p>
-  <hr>
-  <p style="text-align:right;">carrito de compra.</p>
-  <hr>
- <input type="text" id="fname" name="fname" value="Busqueda"><br>
- 
-  <p style="text-align:left;">tu carrito de compras.</p>
-  <img src="" alt="ropa" width="500" height="333">
-  <p style="text-align:center;">nombre del producto.</p>
-  <input type="submit" value="Eliminar">
-  <p style="text-align:right;">Precio</p>
-  <p style="text-align:right;">$precio.</p>
-  <hr>
-  <p style="text-align:right;">subtotal $subtotal</p>
-  <p style="text-align:right;">envio $envio.</p>
-  <p style="text-align:right;">total $total.</p>
-  <input type="submit" value="Pagar">
-  
-<hr>
-<p> otros clientes tambien compraron</p>
-<img src="" alt="ropa" width="500" height="333">
-<p> Nombre</p>
-<p> $precio</p>
+<html lang="es">
+  <head>
+    <title>carshoping</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/public/css/styles.css">
 
-<hr>
-<p style="background-color:gray;">Encuentranos en: .</p>
-<p style="background-color:blue;">FB Chein .</p>
-<p style="background-color:blue ;">Twitter @chein .</p>
-<p style="background-color:gray;">Email chein@gmail.com .</p>
-   
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+          <link rel="stylesheet" href="/public/css/stylecsh.css">
+          <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+<body>
+  
+  <header class="header">
+    <div class="container logo-nav-container">
+        <a href="#" class="logo">SHEIN</a>
+        <span class="menu-icon">Ver menu</span>
+        <nav class="navigation"> 
+          <ul class="show">
+            <li><a href="/src/views/index.html">Inicio</a> </li>
+            <li><a href="#">Hombre</a> </li>
+            <li><a href="#">Mujer</a> </li>
+            <li><a href="#">Iniciar sesion</a> </li>
+            <li><a href="#">Cerrar sesion</a> </li>
+            <li><a href="/src/views/carshoping.html">Carrrito</a> </li>
+          
+          </ul>
+        </nav>
+      </div>
+</header>
+
+<!-- #shop -->
+<section class="shop container">
+  <h2 class="section-title">Shop products</h2>
+  
+  <!-- #content-->  
+  <div class="shop-content">
+    <!-- #box1 -->
+      <div class="product-box>">
+        <img src="/public/images/producto1.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          SHEIN Pullover teddy de hombros caídos cruzado
+        </h2>
+        <span class="price">$190.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+      <!-- #box2 -->
+      <div class="product-box>">
+        <img src="/public/images/producto2.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Capucha térmica con estampado de slogan de hombros caídos
+        </h2>
+        <span class="price">$280.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+      <!-- #box3 -->
+      <div class="product-box>">
+        <img src="/public/images/producto3.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Camisa con fruncido de hombros caídos con falda ajustada con botón falso
+        </h2>
+        <span class="price">$190.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+      <!-- #box4 -->
+      <div class="product-box>">
+        <img src="/public/images/producto4.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          SHEIN X ICW Pantalones de pierna ancha ribete fruncido
+        </h2>
+        <span class="price">$1900.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+      <!-- #box5 -->
+      <div class="product-box>">
+        <img src="/public/images/producto5.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Hombres Sudadera unicolor con diseño con cordón con bolsillo con forro térmico
+        </h2>
+        <span class="price">$400.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div><!-- #box6 -->
+      <div class="product-box>">
+        <img src="/public/images/producto6.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Hombres Abrigo con capucha con diseño de parche
+        </h2>
+        <span class="price">$100.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div><!-- #box7 -->
+      <div class="product-box>">
+        <img src="/public/images/producto7.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Hombres Pantalones con diseño de parche con bolsillos oblicuos sin cinturón
+        </h2>
+        <span class="price">$200.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div><!-- #box8 -->
+      <div class="product-box>">
+        <img src="/public/images/producto8.jpg" alt="" class="product-img">
+        <h2 class="product-title">
+          Hombres Capucha con estampado de letra japonesa y figura con cordón
+        </h2>
+        <span class="price">$400.00</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- #cart -->
+      <div class="cart">
+        <h2 class="cart-tittle">your cart</h2>
+        <div class="cart-box">
+          <img src="/public/images/producto1.jpg" alt="" class="cart-img">
+          <div class="details-box">
+            <div class="cart-product-title">Earbuds</div>
+            <div class="cart-price">$25</div>
+            <input type="number" value="1" class="cart-quantity">
+          </div>
+        <!-- #remove cart -->
+        <i class='bx bxs-trash-alt cart-remove' ></i>
+        </div>
+      </div>
+      <!-- #total -->
+      <div class="total">
+        <div class="total-titel">Total</div>
+        <div class="total-price">$0</div>
+      </div>
+      <!-- #buy botton -->
+      <button type="button" class="btn-buy">buy now</button>
+      <!-- #cart close -->
+      <i class='bx bx-x' id="close-cart" style='color:rgba(0,0,0,0.89)' ></i>
+    </div>
+  
+</section>
+
+<script src="/public/js/"></script>
+
 
 </body>
 </html>

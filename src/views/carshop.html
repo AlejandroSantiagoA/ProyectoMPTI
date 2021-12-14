@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><header class="header">
+                <div class="container logo-nav-container">
+                    <a href="#" class="logo">SHEIN</a>
+                    <span class="menu-icon">Ver menu</span>
+                    <nav class="navigation"> 
+                      <ul class="show">
+                        <li><a href="/src/views/index.html">Inicio</a> </li>
+                        <li><a href="#">Iniciar sesion</a> </li>
+                        <li><a href="#">Cerrar sesion</a> </li>
+                        <li><a href="/src/views/carshop.html">Carrrito</a> </li>
+                      </ul>
+                    </nav>
+                  </div>
+            </header> </span>
+        </button>
+    </nav>
+   
+        <div class="container">
+            <h1 class="text-center">TIENDA</h1>
+            <hr>
+        </div>
+    
+    <!-- START SECTION STORE -->
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">SHEIN Pullover teddy de hombros caídos cruzado</h3>
+                            <img class="item-image" src="/public/images/producto1.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">199.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Capucha térmica con estampado de slogan de hombros caídos</h3>
+
+                            <img class="item-image" src="/public/images/producto2.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">299.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Camisa con fruncido de hombros caídos con falda ajustada con botón falso</h3>
+
+                            <img class="item-image" src="/public/images/producto3.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">500.00€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">SHEIN X ICW Pantalones de pierna ancha ribete fruncido</h3>
+
+                            <img class="item-image" src="/public/images/producto4.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">1499.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Hombres Sudadera unicolor con diseño con cordón con bolsillo con forro térmico</h3>
+
+                            <img class="item-image" src="/public/images/producto5.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">159.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Hombres Abrigo con capucha con diseño de parche</h3>
+
+                            <img class="item-image" src="/public/images/producto6.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">266.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION STORE -->
+    <!-- START SECTION SHOPPING CART -->
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center">CARRITO</h1>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+
+            <!-- START TOTAL -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-header">
+                                <span>✅</span>
+                                <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="toast-body text-white">
+                                Se aumentó correctamente la cantidad
+                            </div>
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END TOTAL -->
+
+            <!-- START MODAL COMPRA -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pronto recibirá su pedido</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODAL COMPRA -->
+
+
+        </div>
+
+    </section>
+    <!-- END SECTION SHOPPING CART -->
+
+
+    <!-- START FOOTER -->
+    <footer class="bg-dark p-3 mt-5">
+        
+        <div class="container-footer-all">
+            <div class="container-body">
+
+                <div class="column1">
+                   <h1>Mas informacion de la compania</h1>
+                <p>
+                    Esta compania se dedica a la venta de ropa para dama y caballero asi mismo brindandole
+                una calidad sin igual
+                </p>
+            </div>
+
+            <div class="column2">
+                <h1>Redes sociales</h1>
+                <div class="row">
+                    <img src="/public/images/facebook.png">
+                    <label> Siguenos en Facebook
+                    </label>
+                </div>
+                <div class="row">
+                    <img src="/public/images/instagram.png">
+                    <label> Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="/public/images/twitter.png">
+                    <label> Siguenos en Twitter
+                    </label>
+                </div>
+                <div class="row">
+                    <img src="/public/images/tiktok.png.opdownload">
+                    <label> Siguenos en tiktok
+                    </label>
+                </div>
+                <div class="row">
+                    <img src="/public/images/174883.png">
+                    <label> Siguenos en Youtube
+                    </label>
+                </div>
+            </div>
+
+            <div class="colum3">
+                <h1>Informacion de contacto</h1>
+                <div class="row2">
+                    <img src="/public/images/house.png">
+                    <label>Av. 5 de Mayo 65, Tecámac Centro, Centro, 55740 Tecámac de Felipe Villanueva, Méx</label>
+                </div>
+                <div class="row2">
+                    <img src="/public/images/smartphone.png">
+                    <label>+52 1 5518847756</label>
+                </div>
+                <div class="row2">
+                    <img src="/public/images/contact.png">
+                    <label>alejandrosa548@gmail.com</label>
+                </div>
+                
+                </div>
+            </div>
+            
+            
+            <div class="container-footer">
+                <div class="footer">
+                <div class="copyright">
+                    © 2021 todos los derechos reservados | <a href="">Alejandro</a>
+                </div>
+                <div class="information">
+                    <a href=""">Informacion compania </a> | <a href="">Privacidad y politica</a> |<a href="">Terminos y condiciones</a> 
+                </div>
+            </div>
+                
+            </div>
+        
+    </footer>
+    <!-- END FOOTER -->
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="/public/js/tienda.js"></script>
+
+</body>
+
+</html>
